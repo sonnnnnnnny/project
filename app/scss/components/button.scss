@@ -4,6 +4,11 @@
  display: grid;
  grid-template-columns: repeat(1,1fr);
  gap: rem(1);
+ width: rem(300);
+}
+.display{
+    border: rem(2) solid var(--gray);
+    height: rem(80);
 }
 .buttonclear{
     border: rem(2) solid var(--gray);
