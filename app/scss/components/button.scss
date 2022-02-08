@@ -1,0 +1,73 @@
+@use '../util' as *;
+
+.calculator{
+ display: grid;
+ grid-template-columns: repeat(1,1fr);
+ gap: rem(1);
+}
+.buttonclear{
+    border: rem(2) solid var(--gray);
+
+}
+.button7{
+    border: rem(2) solid var(--gray);
+
+}
+.button8{
+    border: rem(2) solid var(--gray);
+}
+.button9{
+    border: rem(2) solid var(--gray);
+}
+.buttond{
+    border: rem(2) solid var(--gray);
+
+}
+.button4{
+    border: rem(2) solid var(--gray);
+}
+.button5{
+    border: rem(2) solid var(--gray);
+}
+.button6{
+    border: rem(2) solid var(--gray);
+}
+.buttonm{
+    border: rem(2) solid var(--gray);
+}
+.button1{
+    border: rem(2) solid var(--gray);
+}
+.button2{
+    border: rem(2) solid var(--gray);
+}
+.button3{
+    border: rem(2) solid var(--gray);
+}
+.buttons{
+    border: rem(2) solid var(--gray);
+}
+.button0{
+    border: rem(2) solid var(--gray);
+}
+.buttonf{
+    border: rem(2) solid var(--gray);
+}
+.buttonp{
+    border: rem(2) solid var(--gray);
+}
+.buttonx{
+    border: rem(2) solid var(--gray);
+}
+.buttony{
+    border: rem(2) solid var(--gray);
+}
+.buttone{
+    border: rem(2) solid var(--gray);
+}
+.buttonsq{
+    border: rem(2) solid var(--gray);
+}
+.buttonen{
+    border: rem(2) solid var(--gray);
+}
