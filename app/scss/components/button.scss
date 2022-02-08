@@ -2,17 +2,63 @@
 
 .calculator{
  display: grid;
+}
+.line01{
+    display: grid;
  grid-template-columns: repeat(1,1fr);
  gap: rem(1);
  width: rem(300);
 }
+.line02{
+    display: grid;
+ grid-template-columns: repeat(4,1fr);
+ gap: rem(1);
+ width: rem(300);
+ height: rem(50)
+}
+.line03{
+    display: grid;
+ grid-template-columns: repeat(4,1fr);
+ gap: rem(1);
+ width: rem(300);
+ height: rem(50);
+}
+.line04{
+    display: grid;
+ grid-template-columns: repeat(4,1fr);
+ gap: rem(1);
+ width: rem(300);
+ height:rem(50);
+}
+.line05{
+    display: grid;
+ grid-template-columns: repeat(3,1fr);
+ gap: rem(1);
+ height: rem(50);
+ width: rem(300);
+}
+.line06{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+ gap: rem(1);
+ height: rem(50);
+ width: rem(300);
+}
+.line07{
+    display: grid;
+ grid-template-columns: repeat(1,1fr);
+ gap: rem(1);
+ width: rem(300);
+ height:  rem(50);
+}
 .display{
     border: rem(2) solid var(--gray);
     height: rem(80);
+    width: rem(300);
 }
 .buttonclear{
     border: rem(2) solid var(--gray);
-
+    height: rem(50) ;
 }
 .button7{
     border: rem(2) solid var(--gray);
@@ -54,12 +100,16 @@
 }
 .button0{
     border: rem(2) solid var(--gray);
+   
 }
 .buttonf{
     border: rem(2) solid var(--gray);
+    width: rem(150);
+    
 }
 .buttonp{
     border: rem(2) solid var(--gray);
+   
 }
 .buttonx{
     border: rem(2) solid var(--gray);
