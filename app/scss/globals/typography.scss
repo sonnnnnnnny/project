@@ -11,6 +11,11 @@ h1 {
 	font-size: rem(40);
 	letter-spacing: rem(5);
 	font-family:lobster;
+	@include breakpoint-down(small){
+      padding-left: rem(50);
+
+	}
+
 
 }
 h2{

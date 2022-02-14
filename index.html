@@ -14,127 +14,47 @@
 	<body>
 		<h1>polynomial calculator</h1>
 		<h2>เครื่องคิดเลขพหุนาม</h2>
-		<section class="calculator">
-			<div class="display" ></div>
-			<section class="line01">	
-			<div class="buttonclear">
-				<button class = "button buttonclear1" type ="submit" value="clear" onclick="">
-					clear
-				</button>
-			</div>
-			</section>
-			<section class="line02">
-			<div class="button7">
-				<button class = "button button71" type ="text" value="7" onclick="showValue">
-					7
-				</button>
-			</div>
-			<div class="button8">
-				<button class = "button button81" type ="submit" value="8">
-					8
-				</button>
-			</div>
-			<div class="button9">
-				<button class = "button button91" type ="submit" value="9">
-					9
-				</button>
-			</div>
-			<div class="buttond">
-				<button class = "button buttond1" type ="submit" value="/">
-					/
-				</button>
-			</div>
-		    </section>
-			<section class="line03">
-			<div class="button4">
-				<button class = "button button41" type ="submit" value="4">
-					4
-				</button>
-			</div>
-			<div class="button5">
-				<button class = "button button51" ttype ="submit" value="5">
-					5
-				</button>
-			</div>
-			<div class="button6">
-				<button class = "button button61" type ="submit" value="6">
-				6
-			</button></div>
-			<div class="buttonm">
-				<button class = "button buttonm1" type ="submit" value="*">
-			     *
-				</button>
-			</div>
-		    </section>
-			<section class="line04">
-			<div class="button1">
-				<button class = "button button11" type ="submit" value="1">
-				1
-				</button>
-			</div>
-			<div class="button2">
-				<button class = "button button21" type ="submit" value="2">
-				2
-				</button>
-			</div>
-			<div class="button3">
-				<button class = "button button31" type ="submit" value="3">
-				3
-				</button>
-			</div>
-			<div class="buttons">
-				<button class = "button buttons1" type ="submit" value="-">
-				-
-				</button>
-			</div>
-			</section>
-			<section class="line05">
-			<div class="button0">
-				<button class = "button button01" type ="submit" value="0">
-				0
-				</button>
-			</div>
-			<div class="buttonf">
-				<button class = "button buttonf1" type ="submit" value=".">
-				.
-				</button>
-			</div>
-			<div class="buttonp">
-				<button class = "button buttonp1" type ="submit" value="+">
-				+
-				</button>
-			</div>
-		    </section>
-			<section class="line06">
-			<div class="buttonx">
-				<button class = "button buttonx1" type ="submit" value="x">
-				x
-				</button>
-			</div>
-			<div class="buttony">
-				<button class = "button buttony1" type ="submit" value="y">
-				y
-				</button>
-			</div>
-			<div class="buttone">
-				<button class = "button buttone1" type ="submit" value="^">
-				^
-				</button>
-			</div>
-			<div class="buttonsq">
-				<button class = "button buttonsq1" type ="submit" value="sq">
-				//
-				</button>
-			</div>
-			</section>
-			<section class="line07">
-			<div class="buttonen">
-				<button class = "button buttonen1" type ="submit" value="enter">
-				enter
-				</button>
-			</div>
-			</section>
-		</section>
-		</div>
+		<html>
+<head>
+</head>
+<!-- create table -->
+<body>
+	<table border="1">
+		<tr>
+			<td colspan="3"><input type="text" id="result"/></td>
+			<!-- clr() function will call clr to clear all value -->
+			<td><input type="button" value="c" onclick="clr()"/> </td>
+		</tr>
+		<tr>
+			<!-- create button and assign value to each button -->
+			<!-- dis("1") will call function dis to display value -->
+			<td><input type="button" value="1" onclick="dis('1')"/> </td>
+			<td><input type="button" value="2" onclick="dis('2')"/> </td>
+			<td><input type="button" value="3" onclick="dis('3')"/> </td>
+			<td><input type="button" value="/" onclick="dis('/')"/> </td>
+		</tr>
+		<tr>
+			<td><input type="button" value="4" onclick="dis('4')"/> </td>
+			<td><input type="button" value="5" onclick="dis('5')"/> </td>
+			<td><input type="button" value="6" onclick="dis('6')"/> </td>
+			<td><input type="button" value="-" onclick="dis('-')"/> </td>
+		</tr>
+		<tr>
+			<td><input type="button" value="7" onclick="dis('7')"/> </td>
+			<td><input type="button" value="8" onclick="dis('8')"/> </td>
+			<td><input type="button" value="9" onclick="dis('9')"/> </td>
+			<td><input type="button" value="+" onclick="dis('+')"/> </td>
+		</tr>
+		<tr>
+			<td><input type="button" value="." onclick="dis('.')"/> </td>
+			<td><input type="button" value="0" onclick="dis('0')"/> </td>
+			<!-- solve function call function solve to evaluate value -->
+			<td><input type="button" value="=" onclick="solve()"/> </td>
+			<td><input type="button" value="*" onclick="dis('*')"/> </td>
+		</tr>
+	</table>
+</body>
+</html>
+
 	</body>
 </html>

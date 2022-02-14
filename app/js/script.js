@@ -1,21 +1,19 @@
-let display = document.getElementById('display');
-let buttonc = Array.from(document.getElementsByClassName('buttonclear'));
-let button1 = Array.from(document.getElementsByClassName('button1'));
-let button2 = Array.from(document.getElementsByClassName('button2'));
-let button3 = Array.from(document.getElementsByClassName('button3'));
-let button4 = Array.from(document.getElementsByClassName('button4'));
-let button5 = Array.from(document.getElementsByClassName('button5'));
-let button6 = Array.from(document.getElementsByClassName('button6'));
-let button7 = Array.from(document.getElementsByClassName('button7'));
-let button8 = Array.from(document.getElementsByClassName('button8'));
-let button9 = Array.from(document.getElementsByClassName('button9'));
-let buttond = Array.from(document.getElementsByClassName('buttond'));
-let buttonm = Array.from(document.getElementsByClassName('buttonm'));
-let buttons = Array.from(document.getElementsByClassName('buttons'));
-let buttonp = Array.from(document.getElementsByClassName('buttonp'));
-let buttone = Array.from(document.getElementsByClassName('buttone'));
-let buttonx = Array.from(document.getElementsByClassName('buttonx'));
-let buttony = Array.from(document.getElementsByClassName('buttony'));
-let buttonsq = Array.from(document.getElementsByClassName('buttonsq'));
-let buttonen = Array.from(document.getElementsByClassName('buttonen'));
+//function that display value
+function dis(val)
+{
+    document.getElementById("result").value+=val
+}
 
+//function that evaluates the digit and return result
+function solve()
+{
+    let x = document.getElementById("result").value
+    let y = eval(x)
+    document.getElementById("result").value = y
+}
+
+//function that clear the display
+function clr()
+{
+    document.getElementById("result").value = ""
+}
