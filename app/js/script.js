@@ -7,9 +7,9 @@ function dis(val)
 //function that evaluates the digit and return result
 function solve()
 {
-    let x = document.getElementById("result").value
-    let y = eval(x)
-    document.getElementById("result").value = y
+    let z = document.getElementById("result").value
+    let w = eval(z)
+    document.getElementById("result").value = w
 }
 
 //function that clear the display
