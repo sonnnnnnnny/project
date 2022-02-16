@@ -1,18 +1,21 @@
 @use '../util' as *;
 .b1{
-    height: rem(50);
-    width: rem(50);
+    height: rem(60);
+    width: rem(97);
     background-color: var(--fill);
     color: var(--white);
-
-
 }
 .dis{
-    width: rem(300);
-    height: rem(50);
+    width: rem(298);
+    height: rem(70);
     background-color: var(--white);
     color: var(--black);
+    font-size: rem(35);
 
+}
+.btn{
+    gap: rem(0);
+    padding-left: rem(1);
 }
 
 
