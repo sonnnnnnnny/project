@@ -1,2 +1,10 @@
+@use '../util' as *;
+.b1{
+    height: rem(50);
+    width: rem(50);
+    background-color: var(--fill);
+    color: var(--white);
+}
+
 
 

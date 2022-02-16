@@ -8,6 +8,7 @@
         <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
 		<title>polynomial calculator</title>
 		<link rel="stylesheet" href="/dist/style.css" />
+		<script src="https://kit.fontawesome.com/e9a16232d0.js" crossorigin="anonymous"></script>
 		<script defer src="/dist/script.js"></script>
 		<meta name="polynomial caculator" content="a school project">
 	</head>
@@ -18,47 +19,23 @@
 <head>
 </head>
 <!-- create table -->
-<body>
-	<table border="2" style="border: rem(1) solid var(--gray);width: 30%;max-width: 30%;">
-		<tr style="height: 50px;">  
-			<td colspan="3"><input type="text" id="result"/></td>
-		</tr>
-		<tr style="height: 50px;width: fit-content;">
-			<!-- create button and assign value to each button -->
+<body>  
+		<input type="text" id="result">
+	    	<!-- create button and assign value to each button -->
 			<!-- dis("1") will call function dis to display value -->
-			<td> <input type="button" value="1" onclick="dis('1')" /> </td>
-			<td><input type="button" value="2" onclick="dis('2')" /> </td>
-			<td><input type="button" value="3" onclick="dis('3')"/> </td>
-			<td class="d"><input type="button" value="/" onclick="dis('/')" /> </td>
-		</tr>
-		<tr style="height: 50px;">
-			<td><input type="button" value="4" onclick="dis('4') " /> </td>
-			<td><input type="button" value="5" onclick="dis('5')" /> </td>
-			<td><input type="button" value="6" onclick="dis('6')" /> </td>
-			<td><input type="button" value="-" onclick="dis('-')" /> </td>
-		</tr>
-		<tr style="height: 50px;">
-			<td><input type="button" value="7" onclick="dis('7')" /> </td>
-			<td><input type="button" value="8" onclick="dis('8')" ></td>
-			<td><input type="button" value="9" onclick="dis('9')" /> </td>
-			<td><input type="button" value="+" onclick="dis('+')" /> </td>
-		</tr>
-		<tr style="height: 50px;width: auto;">
-			<td><input type="button" value="." onclick="dis('.')" /> </td>
-			<td><input type="button" value="0" onclick="dis('0')" /> </td>
-			<!-- solve function call function solve to evaluate value -->
-			<td><input type="button" value="=" onclick="solve()" /> </td>
-			<td><input type="button" value="*" onclick="dis('*')" /> </td>
-		</tr>
-		<tr style="height: 50px;">
-			<td><input type="button" value="//" onclick="dis('sqrt')" class="//"/> </td>
-			<td><input type="button" value="**" onclick="dis('^')" class="**"/> </td>
-			<td><input type="button" value="x" onclick="dis('x')" class="x"/> </td>
-			<td><input type="button" value="y" onclick="dis('y')" class="y"/> </td>
-		</tr>
-		<tr style="height: 50px;"><!-- clr() function will call clr to clear all value -->
-			<td><input type="button" value="c" onclick="clr()" class="c"/> </td></tr>
-	</table>
+			<button class="b1"onclick="dis('1')"><i class="fa-solid fa-1"></i> </button>
+			<button class="b1"onclick="dis('2')"><i class="fa-solid fa-1"></i> </button>
+			<button class="b1"onclick="dis('1')"><i class="fa-solid fa-1"></i> </button>
+			<button class="b1"onclick="dis('1')"><i class="fa-solid fa-1"></i> </button>
+			<button class="b1"onclick="dis('1')"><i class="fa-solid fa-1"></i> </button>
+			<button class="b1"onclick="dis('1')"><i class="fa-solid fa-1"></i> </button>
+			<button class="b1"onclick="dis('1')"><i class="fa-solid fa-1"></i> </button>
+			<button class="b1"onclick="dis('1')"><i class="fa-solid fa-1"></i> </button>
+			<button class="b1"onclick="dis('1')"><i class="fa-solid fa-1"></i> </button>
+			<button class="b1"onclick="dis('1')"><i class="fa-solid fa-1"></i> </button>
+			<button class="b1"onclick="dis('1')"><i class="fa-solid fa-1"></i> </button>
+			<button class="b1"onclick="dis('1')"><i class="fa-solid fa-1"></i> </button>
+			<button class="b1"onclick="dis('1')"><i class="fa-solid fa-1"></i> </button>
 </body>
 </html>
 
