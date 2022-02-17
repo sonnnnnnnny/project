@@ -17,3 +17,9 @@ function clr()
 {
     document.getElementById("result").value = ""
 }
+//exponential symbol ^=**
+//sqrt 
+//x
+let x = parseFloat(document.getElementsById("x"));
+//y
+let y = parseFloat(document.getElementsById("y"));

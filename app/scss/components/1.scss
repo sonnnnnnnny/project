@@ -1,24 +1,84 @@
 @use '../util' as *;
-.b1{
-    height: rem(60);
-    width: rem(97);
-    background-color: var(--fill);
-    color: var(--white);
-}
-.dis{
-    width: rem(298);
-    height: rem(70);
-    background-color: var(--white);
-    color: var(--black);
-    font-size: rem(35);
-
-}
-.btn{
-    gap: rem(0);
-    padding-left: rem(1);
-}
-
-
-
-
-
+\.calculator{
+    display: grid;
+   }
+   .line01{
+       display: grid;
+    grid-template-columns: repeat(1,1fr);
+    gap: rem(1);
+    width: rem(300);
+   }
+   .line02{
+       display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: rem(1);
+    width: rem(300);
+    height: rem(50)
+   }
+   .line03{
+       display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: rem(1);
+    width: rem(300);
+    height: rem(50);
+   }
+   .line04{
+       display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: rem(1);
+    width: rem(300);
+    height:rem(50);
+   }
+   .line05{
+       display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: rem(1);
+    height: rem(50);
+    width: rem(300);
+   }
+   .line06{
+       display: grid;
+       grid-template-columns: repeat(4,1fr);
+    gap: rem(1);
+    height: rem(50);
+    width: rem(300);
+   }
+   .line07{
+       display: grid;
+    grid-template-columns: repeat(1,1fr);
+    gap: rem(1);
+    width: rem(300);
+    height:  rem(50);
+   }
+   .display{
+       height: rem(80);
+       width: rem(300);
+       font-size: rem(40);
+       border: rem(2) solid var(--gray);
+   }
+   .buttonclear{
+       height: rem(50) ;
+       border: rem(2) solid var(--gray);
+   }
+    
+   .btn1{
+       border: rem(2) solid var(--gray);
+       width: rem(150);
+       border: rem(2) solid var(--gray);
+       
+   }
+   .btn{
+       border: rem(2) solid var(--gray);
+   }
+   .btn:hover{
+       background-color: var(--hover);
+   }
+   .btn1:hover{
+       background-color: var(--hover);
+   }
+   .btnc{
+       height: rem(50);
+   }
+   .btnc:hover{
+       background-color: var(--hover);
+   }

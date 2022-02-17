@@ -18,41 +18,46 @@
 		<html>
 <head>
 </head>
-<!-- create table -->
+	<div> 
+        <input type="text" id="result" class="display">
+			<section class="line01">	
+				<button class="btnc"onclick="clr()"><i class="fa-solid fa-c fa-2xl"></i> </button>
+			</section>
+			<div class="line02">
+				<button class="btn"onclick="dis('7')" ><i class="fa-solid fa-7 fa-xl"></i> </button>
+				<button class="btn"onclick="dis('8')"><i class="fa-solid fa-8 fa-xl"></i> </button>
+				<button class="btn"onclick="dis('9')"><i class="fa-solid fa-9 fa-xl"></i> </button>
+				<button class="btn"onclick="dis('/')"><i class="fa-solid fa-divide fa-xl"></i> </button>
+			</div>
+			<div class="line03">
+			<button class="btn"onclick="dis('4')"><i class="fa-solid fa-4 fa-xl"></i> </button>
+			<button class="btn"onclick="dis('5')"><i class="fa-solid fa-5 fa-xl"></i></button>
+			<button class="btn"onclick="dis('6')"><i class="fa-solid fa-6 fa-xl"></i> </button>
+			<button class="btn"onclick="dis('*')"><i class="fa-solid fa-asterisk fa-xl"></i> </button>
+			</div>
+			<div class="line04">
+				<button class="btn"onclick="dis('1')"><i class="fa-solid fa-1 fa-xl"></i> </button>
+				<button class="btn"onclick="dis('2')"><i class="fa-solid fa-2 fa-xl"></i> </button>
+				<button class="btn"onclick="dis('3')"><i class="fa-solid fa-3 fa-xl"></i> </button>
+				<button class="btn"onclick="dis('-')"><i class="fa-solid fa-minus fa-xl"></i> </button>
+			</div>
+			<div class="line05">
+				<button class="btn"onclick="dis('0')"><i class="fa-solid fa-0 fa-xl"></i> </button>
+				<button class="btn1"onclick="dis('.')"><i class="fa-solid fa-circle fa-2xs"></i> </button>
+				<button class="btn"onclick="dis('+')"><i class="fa-solid fa-plus fa-xl"></i> </button>
+			</div>
+			<section class="line06">
+			<button class="btn"onclick="dis('x')"id="x"><i class="fa-solid fa-x fa-xl"></i> </button>
+			<button class="btn"onclick="dis('y')"id="y"><i class="fa-solid fa-y fa-xl"></i> </button>
+			<button class="btn"onclick="dis('**')"id="**"><i class="fa-solid fa-superscript fa-xl"></i></button>
+			<button class="btn"onclick="dis('!')"id="//"><i class="fa-solid fa-square-root-variable fa-xl"></i> </button>
+			</section>
+			<section class="line07">
+				<button class="btn"onclick="solve()"><i class="fa-solid fa-equals fa-2xl"></i> </button>
+			</section>
+		</section>
+	</div>
 <body>
-	     <input type="text" id="result" class="dis"> 
-		<div class="btn">
-	    	<!-- create button and assign value to each button -->
-			<!-- dis("1") will call function dis to display value -->
-			<button class="b1"onclick="dis('1')"><i class="fa-solid fa-1"></i> </button>
-			<button class="b1"onclick="dis('2')"><i class="fa-solid fa-2"></i> </button>
-			<button class="b1"onclick="dis('3')"><i class="fa-solid fa-3"></i> </button>
-		</div>
-		<div class="btn">
-			<button class="b1"onclick="dis('4')"><i class="fa-solid fa-4"></i> </button>
-			<button class="b1"onclick="dis('5')"><i class="fa-solid fa-5"></i></button>
-			<button class="b1"onclick="dis('6')"><i class="fa-solid fa-6"></i> </button>
-		</div>
-		<div class="btn">
-			<button class="b1"onclick="dis('7')"><i class="fa-solid fa-7"></i> </button>
-			<button class="b1"onclick="dis('8')"><i class="fa-solid fa-8"></i> </button>
-			<button class="b1"onclick="dis('9')"><i class="fa-solid fa-9"></i> </button>
-		</div>
-		<div class="btn">
-			<button class="b1"onclick="dis('0')"><i class="fa-solid fa-0"></i> </button>
-			<button class="b1"onclick="dis('/')"><i class="fa-solid fa-divide"></i> </button>
-			<button class="b1"onclick="dis('*')"><i class="fa-solid fa-asterisk"></i> </button>
-		</div>
-		<div class="btn">
-			<button class="b1"onclick="dis('+')"><i class="fa-solid fa-plus"></i> </button>
-			<button class="b1"onclick="dis('-')"><i class="fa-solid fa-minus"></i> </button>
-			<button class="b1"onclick="dis('^')"><i class="fa-solid fa-superscript"></i></button>
-		</div>
-		<div class="btn">
-			<button class="b1"onclick="dis('!')"><i class="fa-solid fa-square-root-variable"></i> </button>
-			<button class="b1"onclick="solve()"><i class="fa-solid fa-equals"></i> </button>
-			<button class="b1"onclick="clr()"><i class="fa-solid fa-c"></i> </button>
-		</div>
 </body>
 </html>
 
