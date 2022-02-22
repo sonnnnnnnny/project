@@ -50,6 +50,13 @@
     width: rem(300);
     height:  rem(50);
    }
+   .line08{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+ gap: rem(1);
+ height: rem(50);
+ width: rem(300);
+}
    .display{
        height: rem(80);
        width: rem(300);
