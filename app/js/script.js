@@ -1,4 +1,5 @@
 const { get } = require("browser-sync")
+const algebrite = require('algebrite')
 
 //function that display value
 function dis(val)
@@ -10,7 +11,7 @@ function dis(val)
 function solve()
 {
     let z = document.getElementById("result").value
-    let w = eval(z)
+    let w = algebrite.run(z)
     document.getElementById("result").value = w
 }
 
@@ -19,6 +20,5 @@ function clr()
 {
     document.getElementById("result").value = ""
 }
-//radic
-let sq = document.getElementById("//")
+
 
