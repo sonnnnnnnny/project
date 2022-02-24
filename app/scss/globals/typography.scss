@@ -12,7 +12,7 @@ h1 {
 	letter-spacing: rem(5);
 	font-family:lobster;
 	@include breakpoint-down(small){
-      padding-left: rem(70);
+      padding-left: rem(100);
 
 	}
 

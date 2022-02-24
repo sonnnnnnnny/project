@@ -1,3 +1,5 @@
+const { get } = require("browser-sync")
+
 //function that display value
 function dis(val)
 {
@@ -17,10 +19,6 @@ function clr()
 {
     document.getElementById("result").value = ""
 }
-//exponential symbol &sup2;
+//radic
+let sq = document.getElementById("//")
 
-//sqrt <&radic;>
-//x  
-let x = Symbol(("x"));
-//y
-let y = Symbol(("y"));
