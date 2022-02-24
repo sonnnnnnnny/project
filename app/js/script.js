@@ -1,9 +1,6 @@
-<<<<<<< HEAD
+
 const { get } = require("browser-sync")
 const algebrite = require('algebrite')
-
-=======
->>>>>>> parent of 13706ac (fail)
 //function that display value
 function dis(val)
 {
@@ -23,11 +20,11 @@ function clr()
 {
     document.getElementById("result").value = ""
 }
-<<<<<<< HEAD
 
-=======
+
+
 //exponential symbol &sup2;
->>>>>>> parent of 13706ac (fail)
+
 
 //sqrt <&radic;>
 //x  
