@@ -1,0 +1,9 @@
+@use '../util' as *;
+
+h1{
+    font-family: lobster;
+    font-size: rem(56);
+}
+.space{
+    padding-left: rem(50);
+}

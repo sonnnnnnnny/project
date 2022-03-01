@@ -7,6 +7,7 @@ const cssnano = require('cssnano');
 const babel = require('gulp-babel');
 const terser = require('gulp-terser');
 const browsersync = require('browser-sync').create();
+
 // Sass Task
 function scssTask() {
 	return src('app/scss/style.scss', { sourcemaps: true })
