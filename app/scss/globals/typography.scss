@@ -11,4 +11,14 @@ a,
 a:visited,
 a:active {
 	text-decoration: none;
+	cursor: pointer;
+}
+a:active{
+	color: gray;
+}
+a:visited{
+	color: darkgray;
+}
+a:hover{
+	color: lightgray;
 }

@@ -3,7 +3,32 @@
 h1{
     font-family: lobster;
     font-size: rem(56);
+    padding-top: rem(55);
 }
 .space{
-    padding-left: rem(50);
+    padding-left: rem(25);
+
 }
+.header{
+    border: rem(1) solid var(--black);
+    border-radius: rem(10);
+    width: rem(1369);
+    height: rem(200);
+    display: flex;
+    justify-content: center;
+    background-image: linear-gradient(to right, rgb(255, 255, 255),rgb(0, 0, 0));
+}
+.links{
+    display: flex;
+    justify-content: center;
+    font-size: rem(25);
+    background-color: black;
+
+:not(:last-child){
+    margin-right: rem(100);
+}
+}
+a{
+    color: white
+}
+
