@@ -13,7 +13,7 @@ h1{
 .header{
     border: rem(1) solid var(--black);
     border-radius: rem(10);
-    width: rem(1359);
+    width: rem(1349);
     height: rem(200);
     display: flex;
     justify-content: center;
@@ -47,6 +47,14 @@ a{
     color: var(--black);
 }
 .para1{
+    padding-top: rem(50);
+    padding-right: rem(20);
+    font-family: Itim;
+    font-size: rem(20)
+}
+.para2{
+    padding-bottom: 0;
+    padding-right: rem(20);
     font-family: Itim;
     font-size: rem(20)
 }
@@ -54,7 +62,19 @@ a{
     display:flex;
     justify-content: center;
 }
-.bg-p{
-    display:flex;
-    justify-content: center;
+.pic1{
+    padding-top: rem(50);
+    background: url(/messageImage_1646316152235.jpg);
+    width: rem(300);
+    height: rem(100);
+}
+.pic2{
+    margin-top: rem(20);
+    background: url(/messageImage_1646316831368.jpg);
+    width: rem(100);
+    height: rem(33);
+}
+.pic3{
+    background: url(/messageImage_1646317062259.jpg);
+    margin-top: rem(20);
 }
