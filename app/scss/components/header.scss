@@ -3,6 +3,7 @@
 h1{
     font-family: lobster;
     font-size: rem(56);
+    font-weight: 700;
     padding-top: rem(55);
 }
 .space{
@@ -12,7 +13,7 @@ h1{
 .header{
     border: rem(1) solid var(--black);
     border-radius: rem(10);
-    width: rem(1369);
+    width: rem(1359);
     height: rem(200);
     display: flex;
     justify-content: center;
@@ -31,4 +32,29 @@ h1{
 a{
     color: white
 }
-
+.head{
+    display: flex;
+    justify-content: center;
+    padding-top: rem(75);
+    font-size: rem(75);
+    font-family: lobster;
+    position: absolute;
+}
+.mun{
+    padding-top: rem(160);
+    font-family: Itim;
+    font-size: rem(20);
+    color: var(--black);
+}
+.para1{
+    font-family: Itim;
+    font-size: rem(20)
+}
+.bg{
+    display:flex;
+    justify-content: center;
+}
+.bg-p{
+    display:flex;
+    justify-content: center;
+}
