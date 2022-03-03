@@ -62,11 +62,16 @@ a{
     display:flex;
     justify-content: center;
 }
+.bg1{
+    display:flex;
+    justify-content: center;
+}
 .pic1{
-    padding-top: rem(50);
+    margin-top: rem(75);
     background: url(/messageImage_1646316152235.jpg);
     width: rem(300);
     height: rem(100);
+    margin: rem(10);
 }
 .pic2{
     margin-top: rem(20);
@@ -74,7 +79,35 @@ a{
     width: rem(100);
     height: rem(33);
 }
+.para3{
+    padding-top: rem(50);
+    padding-right: rem(20);
+    font-family: Itim;
+    font-size: rem(20)
+}
 .pic3{
     background: url(/messageImage_1646317062259.jpg);
+    margin-top: rem(10);
+    width: rem(400);
+    height: rem(150);
+}.pic4{
     margin-top: rem(20);
+    background: url(/messageImage_1646318412555.jpg);
+    width: rem(100);
+    height: rem(33);
+}
+.pic5{
+    margin-top: rem(20);
+    background: url(/messageImage_1646318360672.jpg);
+    width: rem(150);
+    height: rem(28);
+}
+.pic6{
+    margin-top: rem(20);
+    background: url(/messageImage_1646318403690.jpg);
+    width: rem(75);
+    height: rem(33);
+}
+.form{
+    color: rgb(0, 0, 0);
 }
