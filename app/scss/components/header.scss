@@ -29,9 +29,6 @@ h1{
     margin-right: rem(100);
 }
 }
-a{
-    color: white
-}
 .head{
     display: flex;
     justify-content: center;
@@ -110,4 +107,21 @@ a{
 }
 .form{
     color: rgb(0, 0, 0);
+    padding: rem(180);
+    font-size: rem(25);
+    font-family: itim;
+}
+.a{
+    color: rgb(255, 255, 255);
+    font-size: rem(25);
+    font-family: itim;
+}
+.form:hover{
+    color: rgb(77, 77, 77);
+}
+.profile{
+    background-color:aqua;
+    width: rem(50);
+    height: rem(50);
+    border-radius: rem(25);
 }
