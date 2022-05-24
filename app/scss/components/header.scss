@@ -2,9 +2,10 @@
 
 h1{
     font-family: lobster;
-    font-size: rem(56);
+    font-size: rem(70);
     font-weight: 700;
     padding-top: rem(55);
+    color:rgb(0, 0, 0) ;
 }
 .space{
     padding-left: rem(25);
@@ -14,6 +15,24 @@ h1{
     border: rem(1) solid var(--black);
     border-radius: rem(10);
     width: rem(1349);
+    height: rem(200);
+    display: flex;
+    justify-content: center;
+    background-image: linear-gradient(to right, rgb(255, 255, 255),rgb(0, 0, 0));
+}
+.header2{
+    border: rem(1) solid var(--black);
+    border-radius: rem(10);
+    width: rem(1365);
+    height: rem(200);
+    display: flex;
+    justify-content: center;
+    background-image: linear-gradient(to right, rgb(255, 255, 255),rgb(0, 0, 0));
+}
+.header3{
+    border: rem(1) solid var(--black);
+    border-radius: rem(10);
+    width: rem(1360);
     height: rem(200);
     display: flex;
     justify-content: center;
@@ -32,28 +51,51 @@ h1{
 .head{
     display: flex;
     justify-content: center;
-    padding-top: rem(75);
-    font-size: rem(75);
+    padding-top: rem(65);
+    font-size: rem(100);
     font-family: lobster;
     position: absolute;
 }
 .mun{
-    padding-top: rem(160);
+    padding-top: rem(180);
     font-family: Itim;
     font-size: rem(20);
     color: var(--black);
+}
+.mun1{
+    padding-top: rem(180);
+    font-family: Itim;
+    font-size: rem(20);
+    color: var(--black);
+    padding-bottom: rem(50);
 }
 .para1{
     padding-top: rem(50);
     padding-right: rem(20);
     font-family: Itim;
-    font-size: rem(20)
+    font-size: rem(20);
+    width:rem(1000);
+    padding-left:rem(400);
 }
 .para2{
     padding-bottom: 0;
     padding-right: rem(20);
     font-family: Itim;
-    font-size: rem(20)
+    font-size: rem(20);
+    width:rem(1000);
+    padding-left:rem(400);
+}
+.para3{
+    padding-bottom: 0;
+    font-family: Itim;
+    font-size: rem(20);
+}
+.para4{
+    padding-bottom: 0;
+    padding-left: rem(540);
+    font-family: Itim;
+    font-size: rem(20);
+
 }
 .bg{
     display:flex;
@@ -63,51 +105,9 @@ h1{
     display:flex;
     justify-content: center;
 }
-.pic1{
-    margin-top: rem(75);
-    background: url(/messageImage_1646316152235.jpg);
-    width: rem(300);
-    height: rem(100);
-    margin: rem(10);
-}
-.pic2{
-    margin-top: rem(20);
-    background: url(/messageImage_1646316831368.jpg);
-    width: rem(100);
-    height: rem(33);
-}
-.para3{
-    padding-top: rem(50);
-    padding-right: rem(20);
-    font-family: Itim;
-    font-size: rem(20)
-}
-.pic3{
-    background: url(/messageImage_1646317062259.jpg);
-    margin-top: rem(10);
-    width: rem(400);
-    height: rem(150);
-}.pic4{
-    margin-top: rem(20);
-    background: url(/messageImage_1646318412555.jpg);
-    width: rem(100);
-    height: rem(33);
-}
-.pic5{
-    margin-top: rem(20);
-    background: url(/messageImage_1646318360672.jpg);
-    width: rem(150);
-    height: rem(28);
-}
-.pic6{
-    margin-top: rem(20);
-    background: url(/messageImage_1646318403690.jpg);
-    width: rem(75);
-    height: rem(33);
-}
 .form{
     color: rgb(0, 0, 0);
-    padding: rem(180);
+    padding: rem(190);
     font-size: rem(25);
     font-family: itim;
 }
@@ -123,5 +123,18 @@ h1{
     background-color:aqua;
     width: rem(50);
     height: rem(50);
-    border-radius: rem(25);
+    border-radius: rem(10);
 }
+.profile2{
+    background-color:aqua;
+    width: rem(50);
+    height: rem(50);
+    border-radius: rem(10);
+}
+.profile3{
+    background-color:aqua;
+    width: rem(50);
+    height: rem(50);
+    border-radius: rem(10);
+}
+
